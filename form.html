@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <title>HTML Academy: Pink</title>
+    <link href="css/style.css" rel="stylesheet">
+  </head>
+  <body>
+    <header class="page-header">
+      <div class="page-header__logo">
+        <a>
+          <img src="#">
+        </a>
+      </div>
+      <nav class="main-nav main-nav--closed main-nav--no-js">
+        <button class="main-nav__toggle" type="button">
+          Открыть меню
+        </button>
+        <div class="main-nav__wrapper"> 
+          <ul class="main-nav__items">
+            <li class="main-nav_item main-nav_item--active">
+              <a href="index.html">
+                Главная
+              </a>
+            </li>
+            <li class="main-nav_item">
+              <a href="#">
+                Фотографии
+               </a>
+            </li>
+            <li class="main-nav_item">
+              <a href="#">
+                Конкурс
+              </a>
+            </li>
+            <li class="main-nav_item">
+              <a href="#">
+                HTML Academy
+              </a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <div class="page-title page-title--photo">
+        <h1>
+          Конкурс на самое безбашенное путешествие с Пинк
+        </h1>
+      </div>
+      <div class="page-desc page-desc--photo">
+        <p>
+          Поделитесь своей историей и получите шанс выиграть ценный приз - 1000 миль на вашу бонусную карту!
+        </p>
+      </div>
+      <form class="registration-form" action="https://echo.htmlacademy.ru" method="get">
+        <div class="name-block">
+          <label for="surname">Фамилия:</label>
+          <input id="surname" type="text" placeholder="Укажите фамилию*" required>
+          <label for="name">Имя:</label>
+          <input id="name" type="text" placeholder="Укажите ваше имя*" required>
+          <label for="patronymic">Отчество:</label>
+          <input id="patronymic" type="text" placeholder="Ну и отчество тоже">
+        </div>
+        <div class="progress-block">
+          <fieldset class="progress-form">
+            <legend>
+              Ваши безбашенные достижения в путешествии
+            </legend>
+            <input type="checkbox" id="selfie" checked>
+            <label for="selfie">
+              Сделал селфи с акулой
+            </label>
+            <input type="checkbox" id="beech" checked>
+            <label for="beech">
+              Обгорел на пляже
+            </label>
+            <input type="checkbox" id="norris" checked>
+            <label for="norris">
+              Видел Чака Норриса
+            </label>
+            <input type="checkbox" id="souvenirs">
+            <label for="souvenirs">
+              Накупил сувениров
+            </label>
+            <input type="checkbox" id="tower" checked>
+            <label for="tower">
+              Удержал башню
+            </label>
+            <input type="checkbox" id="hotel" checked>
+            <label for="hotel">
+              Разгромил отель
+            </label>
+          </fieldset>
+        </div>
+        <div class="contacts-block">
+          <fieldset class="contacts-form">
+            <label for="tel">Номер телефона</label>
+            <input type="tel" name="tel" placeholder="Номер, пожалуйста">
+            <label for="e-mail">Адресок почты</label>
+            <input type="e-mail" name="e-mail" placeholder="Введите почту*" required>
+          </fieldset>
+        </div>
+        <div class="app-block">
+          <fieldset class="app__form">
+            <legend>
+              C каким приложением путешествовали?
+            </legend>
+            <input type="radio" name="app" id="iOS" value="iOS" checked>
+            <label for="iOS">
+              Pink для iOS
+            </label>
+            <input type="radio" name="app" id="Android" value="Android">
+            <label for="Android">
+              Pink для Android
+            </label>
+            <input type="radio" name="app" id="windows" value="windows">
+            <label for="windows">
+              Windows Phone
+            </label>
+          </fieldset>
+        </div>
+        <div class="app-block">
+          <fieldset class="app-form">
+            <label for="emotion">
+              Опишите свои эмоции
+            </label>
+            <textarea name="emotion" rows="6" cols="20">
+               Можно прям в красках, не стесняясь в выражениях
+            </textarea>
+          </fieldset>
+        </div>
+        <button type="submit" class="registration-form__button btn">
+          Отправить форму
+        </button>
+        <span class="registration-form__notice">
+          <sup>*</sup> — обязательные поля          
+        </span>
+      </form>
+    </main>    
+    <footer class="page-footer">
+      <div class="page-footer__wrapper">
+        <div class="page-footer__logo">
+          <a href="#">
+          </a>
+        </div>
+        <p class="page-footer__social">
+          <span class="social-links">
+            <a  href="#" class="social-link social-link--tw">
+              Мы в Твитер
+            </a>
+            <a href="https://www.facebook.com/htmlacademy" class="social-link social-link--fb">
+              Мы в Фейсбуке
+            </a>
+            <a href="#" class="social-link social-link--yt">
+              Мы в Youtobe
+            </a>
+          </span>
+        </p>
+        <p class="page-footer__copyright">
+          Разработано:
+          <a class="btn page-footer__copyright-link" href="https://htmlacademy.ru/intensive/adaptive">
+            HTML Academy
+          </a>
+        </p>
+      </div>
+    </footer>
+  </body>
+</html>
